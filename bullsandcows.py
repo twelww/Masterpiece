@@ -6,7 +6,7 @@ number = ''.join(random.sample('0123456789', 4))
 # Define the initial number of attempts
 attempts = 0
 
-# Allow the user to guess the number
+# Allow the user to guess the rpppm number
 while True:
     guess = input("Guess a four-digit number with no repeating digits: ")
     attempts += 1
